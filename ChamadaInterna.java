@@ -14,17 +14,13 @@ public class ChamadaInterna extends Chamada {
         this.descricaoTecnica = descricao;
     }
 
-    void setNivelInterno(int nivel) {
-        this.nivelDeUrgenciaInterna = nivel;
-    }
+
 
     int getNivelInterno() {
         return this.nivelDeUrgenciaInterna;
     }
 
-    void setDescricaoTecnica(String descricao) {
-        this.descricaoTecnica = descricao;
-    }
+
 
     void printDetalhes() {
         super.printDetalhes();

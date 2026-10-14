@@ -27,10 +27,7 @@ public class listaChamaInterna extends lista {
         addData(nova);
 
     }
-
-    ChamadaInterna buscar(int index) {
-        return (ChamadaInterna) procurarData(index);
-    }
+    
 
     void listar() {
 

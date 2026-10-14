@@ -9,10 +9,6 @@ public class ChamadaExterna extends Chamada {
         this.nivelDeUrgenciaExterna = nivel;
     }
 
-    void setNivel(int nivel) {
-        this.nivelDeUrgenciaExterna = nivel;
-    }
-
     int getNivel() {
         return this.nivelDeUrgenciaExterna;
     }

@@ -14,9 +14,6 @@ public class Cliente {
         return nome;
     }
 
-    public String getGmail() {
-        return gmail;
-    }
 
     void printDados() {
         System.out.println("Nome: " + nome);
